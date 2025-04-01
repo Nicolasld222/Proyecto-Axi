@@ -272,12 +272,145 @@ h1{
         width: 80%;
     }
 }
+.sub-list-two{
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    background-color: #f5f5f5;
+        span{
+            font-size: 170%;
+            font-weight: bold;
+        }
+        p{
+            font-size: 100%;
+            width: 90%;
+            margin: 15px 0px;
+        }
+        .text{
+            width: 40%;
+        }
+}
 
+h4{
+    font-size: 40px;
+    font-weight: 500;
+}
+.text-info-one{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.info-empresa{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
 
+        .text-info-one{
+            margin-bottom: 120px;
+        }
+        .contenido-ventajas{
+            display: flex;
+                
+        }
+        .ventajas{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+            span{
+                font-size: 25px;
+                font-weight: bold;
+                margin: 20px 0px;
+            }       
+            p{
+                width: 60%;
+                display: flex;
+            }
+        }
+}
+.prices{
+    background-color: #f5f5f5;
+}
 
+.cards-princing{
+    display: flex;
+    justify-content: space-around;
+        
+}
+.card-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 1px; */
+        ul{
+            list-style: none;
+            align-items: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        } 
+        .title-price{
+            background-color: #333333;
+            width: 180%;
+            height: 60px;
+            align-items: center;
+            display: flex;
+            color: white;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 1px;
+        }
+        .info-price-card{
+            background-color: #333333;
+            width: 180%;
+            height: 170px;
+            display: flex;
+            color: white;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            align-items: center;
+            
+                    a{
+                        font-size: 85px;
+                    }
+                    p{
+                        color: #adadad;
+                        font-weight: 500;
+                        font-size: 16px;
+                        margin-top: 10px;
+                    }
+                
+        }
+        .linea-orange{
+            width: 180%;
+            height: 3px;
+            background-color: #ff8b38;
+            border: none;
+            margin: 0;
+        }
+        
+        
 
-
-
+}
+.line-orange-price{
+    width: 180%;
+    height:20px;
+    background-color: #ff6b00;
+    align-items: center;
+    display: flex;
+}
 
 
 
